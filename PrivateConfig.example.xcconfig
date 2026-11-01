@@ -1,0 +1,8 @@
+// Copy to PrivateConfig.xcconfig and fill in the existing values locally.
+INFOPLIST_KEY_HubTestPassword =
+INFOPLIST_KEY_HubPINJav =
+INFOPLIST_KEY_HubPINLuca =
+INFOPLIST_KEY_HubPINJuan =
+INFOPLIST_KEY_HubSupabaseURL =
+INFOPLIST_KEY_HubSupabaseAnonKey =
+INFOPLIST_KEY_HubTestEmail =

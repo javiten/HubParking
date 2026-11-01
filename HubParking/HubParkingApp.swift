@@ -6,12 +6,27 @@
 //
 
 import SwiftUI
+import UserNotifications
+import UIKit
 
 @main
 struct HubParkingApp: App {
+    @StateObject private var userManager = UserManager()
+    @StateObject private var themeManager = ThemeManager()
+    @StateObject private var viewModel = ParkedVehiclesViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if userManager.isAuthenticated {
+                ContentView()
+                    .environmentObject(userManager)
+                    .environmentObject(themeManager)
+                    .environmentObject(viewModel)
+            } else {
+                LoginView()
+                    .environmentObject(userManager)
+                    .environmentObject(themeManager)
+            }
         }
     }
 }

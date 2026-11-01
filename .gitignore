@@ -1,0 +1,11 @@
+.DS_Store
+**/xcuserdata/
+**/*.xcuserstate
+PrivateConfig.xcconfig
+*.p8
+*.p12
+*.mobileprovision
+DerivedData/
+build/
+Pods/
+HubParking/GoogleService-Info.plist

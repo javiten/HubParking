@@ -1,0 +1,9 @@
+{
+  "id" : "0e203a1a-2210-4d52-a556-09f476f6803a",
+  "targets" : [
+    {
+      "id" : "E6E47F0C-3CAB-465C-8B98-01BC4F81377B",
+      "name" : "Supabase"
+    }
+  ]
+}

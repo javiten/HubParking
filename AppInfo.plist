@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HubPINJav</key>
+	<string>$(INFOPLIST_KEY_HubPINJav)</string>
+	<key>HubPINJuan</key>
+	<string>$(INFOPLIST_KEY_HubPINJuan)</string>
+	<key>HubPINLuca</key>
+	<string>$(INFOPLIST_KEY_HubPINLuca)</string>
+	<key>HubSupabaseAnonKey</key>
+	<string>$(INFOPLIST_KEY_HubSupabaseAnonKey)</string>
+	<key>HubSupabaseURL</key>
+	<string>$(INFOPLIST_KEY_HubSupabaseURL)</string>
+	<key>HubTestEmail</key>
+	<string>$(INFOPLIST_KEY_HubTestEmail)</string>
+	<key>HubTestPassword</key>
+	<string>$(INFOPLIST_KEY_HubTestPassword)</string>
+</dict>
+</plist>

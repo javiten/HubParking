@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5D61A6A72D5B16D100A2456A /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 5D61A6A62D5B16D100A2456A /* Functions */; };
+		5D61A6A92D5B16D100A2456A /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 5D61A6A82D5B16D100A2456A /* Supabase */; };
+		5D61A6AB2D5B17C500A2456A /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 5D61A6AA2D5B17C500A2456A /* Functions */; };
+		5D61A6AD2D5B17C500A2456A /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 5D61A6AC2D5B17C500A2456A /* Supabase */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5D6A14D52D591CE00022090B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1198ED045957313B0B3F2D1 /* PrivateConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = PrivateConfig.xcconfig; sourceTree = SOURCE_ROOT; };
+		5D6459262D59799000853C8B /* HubParking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = HubParking.xcodeproj; sourceTree = "<group>"; };
 		5D6A14C42D591CDF0022090B /* HubParking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HubParking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6A14D42D591CE00022090B /* HubParkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HubParkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D6A14DE2D591CE00022090B /* HubParkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HubParkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,6 +61,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D61A6AD2D5B17C500A2456A /* Supabase in Frameworks */,
+				5D61A6AB2D5B17C500A2456A /* Functions in Frameworks */,
+				5D61A6A92D5B16D100A2456A /* Supabase in Frameworks */,
+				5D61A6A72D5B16D100A2456A /* Functions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +85,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D6459272D59799000853C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5D6A14BB2D591CDF0022090B = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +99,7 @@
 				5D6A14D72D591CE00022090B /* HubParkingTests */,
 				5D6A14E12D591CE00022090B /* HubParkingUITests */,
 				5D6A14C52D591CDF0022090B /* Products */,
+				5DDA24543097E5EE009F6D84 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +111,14 @@
 				5D6A14DE2D591CE00022090B /* HubParkingUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5DDA24543097E5EE009F6D84 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				5D6459262D59799000853C8B /* HubParking.xcodeproj */,
+			);
+			name = "Recovered References";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,8 +140,6 @@
 				5D6A14C62D591CDF0022090B /* HubParking */,
 			);
 			name = HubParking;
-			packageProductDependencies = (
-			);
 			productName = HubParking;
 			productReference = 5D6A14C42D591CDF0022090B /* HubParking.app */;
 			productType = "com.apple.product-type.application";
@@ -134,8 +161,6 @@
 				5D6A14D72D591CE00022090B /* HubParkingTests */,
 			);
 			name = HubParkingTests;
-			packageProductDependencies = (
-			);
 			productName = HubParkingTests;
 			productReference = 5D6A14D42D591CE00022090B /* HubParkingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,8 +182,6 @@
 				5D6A14E12D591CE00022090B /* HubParkingUITests */,
 			);
 			name = HubParkingUITests;
-			packageProductDependencies = (
-			);
 			productName = HubParkingUITests;
 			productReference = 5D6A14DE2D591CE00022090B /* HubParkingUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -195,9 +218,18 @@
 			);
 			mainGroup = 5D6A14BB2D591CDF0022090B;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5D61A6A52D5B16D100A2456A /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5D6A14C52D591CDF0022090B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5D6459272D59799000853C8B /* Products */;
+					ProjectRef = 5D6459262D59799000853C8B /* HubParking.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5D6A14C32D591CDF0022090B /* HubParking */,
@@ -390,15 +422,20 @@
 		};
 		5D6A14E92D591CE00022090B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1198ED045957313B0B3F2D1 /* PrivateConfig.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_ASSET_PATHS = "\"HubParking/Preview Content\"";
-				DEVELOPMENT_TEAM = YP74M5P6Z8;
+				DEVELOPMENT_TEAM = 2MBN5DQC77;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppInfo.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Use Face ID to unlock your linked HUB Parking account.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used to assist with parking management features while using the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -408,9 +445,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hubsystemlogin.com.HubParking;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = hubcarshare.hubparkingg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -419,15 +457,19 @@
 		};
 		5D6A14EA2D591CE00022090B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1198ED045957313B0B3F2D1 /* PrivateConfig.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_ASSET_PATHS = "\"HubParking/Preview Content\"";
-				DEVELOPMENT_TEAM = YP74M5P6Z8;
+				DEVELOPMENT_TEAM = 2MBN5DQC77;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppInfo.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Use Face ID to unlock your linked HUB Parking account.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used to assist with parking management features while using the app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -437,8 +479,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hubsystemlogin.com.HubParking;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = hubcarshare.hubparkingg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -452,11 +494,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YP74M5P6Z8;
+				DEVELOPMENT_TEAM = 2MBN5DQC77;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hubsystemlogin.com.HubParkingTests;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = hubcarshare.hubparkinggtests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -471,11 +513,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YP74M5P6Z8;
+				DEVELOPMENT_TEAM = 2MBN5DQC77;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hubsystemlogin.com.HubParkingTests;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = hubcarshare.hubparkinggtests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -489,10 +531,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YP74M5P6Z8;
+				DEVELOPMENT_TEAM = 2MBN5DQC77;
 				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hubsystemlogin.com.HubParkingUITests;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = hubcarshare.hubparkingguitests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -506,10 +548,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YP74M5P6Z8;
+				DEVELOPMENT_TEAM = 2MBN5DQC77;
 				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hubsystemlogin.com.HubParkingUITests;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = hubcarshare.hubparkingguitests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -558,6 +600,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5D61A6A52D5B16D100A2456A /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5D61A6A62D5B16D100A2456A /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D61A6A52D5B16D100A2456A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		5D61A6A82D5B16D100A2456A /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D61A6A52D5B16D100A2456A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		5D61A6AA2D5B17C500A2456A /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D61A6A52D5B16D100A2456A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		5D61A6AC2D5B17C500A2456A /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D61A6A52D5B16D100A2456A /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5D6A14BC2D591CDF0022090B /* Project object */;
 }
